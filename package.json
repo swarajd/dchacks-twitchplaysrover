@@ -1,0 +1,16 @@
+{
+  "name": "dchacks",
+  "version": "1.0.0",
+  "description": "dchacks hackathon computer-side projectbase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bluetooth-serial-port": "^1.2.4",
+    "express": "^4.13.2",
+    "socket.io": "^1.3.6"
+  }
+}
