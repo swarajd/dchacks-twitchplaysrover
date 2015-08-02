@@ -12,6 +12,8 @@
     "bluetooth-serial-port": "^1.2.4",
     "express": "^4.13.2",
     "path": "^0.11.14",
+    "request": "^2.60.0",
+    "serialport": "^1.7.4",
     "socket.io": "^1.3.6"
   }
 }

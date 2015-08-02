@@ -1,0 +1,14 @@
+.swcontainer {
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.webcam {
+  height: 1000px;
+  width: 1200px;
+}

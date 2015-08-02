@@ -3,9 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <title>TwitchPlaysRover</title>
+  <link rel="stylesheet" href="css/bootstrap-3.3.5-dist/css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
-  Testing
+  <h1>Twitch Plays Mars Rover!</h1>
+  <div class="swcontainer">
+    <div class="row">
+      <div class="col-md-9">
+        <iframe src="http://localhost:8081/" class="webcam"></iframe> 
+      </div>
+      <div class="col-md-3">
+        <div class="panel panel-default">
+          <!-- Default panel contents -->
+          <div class="panel-heading">Commands</div>
+          <div class="panel-body">
+            <p><b>These are the commands you can use to control the robot!</b></p>
+          </div>
+
+          <!-- List group -->
+          <ul class="list-group">
+            <li class="list-group-item">forward</li>
+            <li class="list-group-item">back</li>
+            <li class="list-group-item">left</li>
+            <li class="list-group-item">right</li>
+            <li class="list-group-item">stop</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
 </body>
 <script src="js/jquery-1.11.3.min.js"></script>
 <script src="/socket.io/socket.io.js"></script>
