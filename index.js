@@ -34,9 +34,9 @@ io.on('connection', function(socket){
       portwrite = '1\n4\n';
     } else if (cmd === 98) {
       portwrite = '3\n6\n';
-    } else if (cmd === 114) {
-      portwrite = '1\n6\n';
     } else if (cmd === 108) {
+      portwrite = '1\n6\n';
+    } else if (cmd === 114) {
       portwrite = '3\n4\n';
     } else if (cmd === 115) {
       portwrite = '2\n5\n';
